@@ -4,7 +4,7 @@ Pipeline:
 GitRepo:
   name: GitRepoRes
   type: GitRepo
-  gitProvider: s_gitHub
+  gitProvider: myGitHub
   path: {{.jfrog-pipelines.sourceRepository}}
   files:
     include: tests/core/helmdeploy/simplehelm.*
